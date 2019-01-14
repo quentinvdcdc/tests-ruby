@@ -6,7 +6,7 @@ def shout(word)
 	return word.upcase
 end
 
-def repeat(word, i)
+def repeat(word, i=2)
 	return word + (" #{word}" * (i-1))
 end
 
